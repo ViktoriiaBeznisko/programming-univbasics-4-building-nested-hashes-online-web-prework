@@ -6,10 +6,18 @@ end
 
 
 def monopoly_with_second_tier
+<<<<<<< HEAD
   
   hash = {:railroads=>{:pieces=>4}}
   
  
+=======
+  hash = {:railroads=>{}}
+  #hash = {:railroads=>{:pieces=>4, :rent_in_dollars=>{}}}
+  #hash[:railroads] = [:pieces =>{} 
+ 
+end
+>>>>>>> 134dfb96e43b813c3b92ba5ac58d3abb6286658d
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
